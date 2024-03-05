@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1708846106" tv-usec="923553" name="Region start trim">
+    <StatefulDiffCommand obj-id="3092" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <start from="198450" to="220500"/>
+        <length from="110250" to="88200"/>
+        <position from="1477350" to="1499400"/>
+        <beat from="67" to="68"/>
+        <start-beats from="9" to="10"/>
+        <length-beats from="5" to="4"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846143" tv-usec="623637" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="12.972916666666666" new="12.999479166666667" id="174668"/>
+        <Change property="StartTime" old="12.984895833333333" new="13.011458333333334" id="174669"/>
+        <Change property="StartTime" old="12.961458333333333" new="12.988020833333334" id="174667"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846151" tv-usec="475843" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="13.478125" new="13.499479166666667" id="174674"/>
+        <Change property="StartTime" old="13.490104166666667" new="13.511458333333334" id="174675"/>
+        <Change property="StartTime" old="13.466666666666667" new="13.488020833333334" id="174673"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846169" tv-usec="431170" name="Region end trim">
+    <StatefulDiffCommand obj-id="3092" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="88200" to="176400"/>
+        <length-beats from="4" to="8"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846179" tv-usec="691859" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="14.4546875" new="14.511458333333334" id="174686"/>
+        <Change property="StartTime" old="14.442708333333334" new="14.5" id="174685"/>
+        <Change property="StartTime" old="14.466145833333334" new="14.5234375" id="174687"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846184" tv-usec="468260" name="copy notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes/>
+      <AddedNotes>
+        <note id="184967" note="64" channel="0" time="14.011458333333334" length="0.13229166666666667" velocity="99"/>
+        <note id="184969" note="71" channel="0" time="14" length="0.15520833333333334" velocity="99"/>
+        <note id="184971" note="67" channel="0" time="14.0234375" length="0.14374999999999999" velocity="109"/>
+      </AddedNotes>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846192" tv-usec="641638" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="14.925520833333334" new="14.988020833333334" id="174691"/>
+        <Change property="StartTime" old="14.948958333333334" new="15.011458333333334" id="174693"/>
+        <Change property="StartTime" old="14.9375" new="15" id="174692"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846196" tv-usec="814403" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="15.4515625" new="15.488020833333334" id="174697"/>
+        <Change property="StartTime" old="15.474479166666667" new="15.510937500000001" id="174699"/>
+        <Change property="StartTime" old="15.463020833333333" new="15.499479166666667" id="174698"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846204" tv-usec="960163" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="15.935416666666667" new="15.988020833333334" id="174703"/>
+        <Change property="StartTime" old="15.946875" new="15.999479166666667" id="174704"/>
+        <Change property="StartTime" old="15.958333333333334" new="16.010937500000001" id="174705"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846212" tv-usec="519814" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="16.4609375" new="16.488020833333334" id="174709"/>
+        <Change property="StartTime" old="16.472395833333334" new="16.5" id="174710"/>
+        <Change property="StartTime" old="16.484375" new="16.511458333333334" id="174711"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846216" tv-usec="344698" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="16.966145833333332" new="16.988020833333334" id="174716"/>
+        <Change property="StartTime" old="16.955208333333335" new="16.9765625" id="174715"/>
+        <Change property="StartTime" old="16.977604166666666" new="16.999479166666667" id="174717"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846220" tv-usec="249852" name="move notes">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes>
+        <Change property="StartTime" old="17.469791666666666" new="17.488020833333334" id="174721"/>
+        <Change property="StartTime" old="17.493229166666666" new="17.511458333333334" id="174723"/>
+        <Change property="StartTime" old="17.481249999999999" new="17.5" id="174722"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846226" tv-usec="469624" name="Region end trim">
+    <StatefulDiffCommand obj-id="3092" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="176400" to="181913"/>
+        <length-beats from="8" to="8.2500226757369433"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846236" tv-usec="367248" name="delete selection">
+    <NoteDiffCommand midi-source="2328">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="175816" note="72" channel="0" time="17.996874999999999" length="0.14427083333333332" velocity="104"/>
+        <note id="175815" note="69" channel="0" time="17.985416666666666" length="0.14427083333333332" velocity="109"/>
+        <note id="175817" note="65" channel="0" time="18.008854166666666" length="0.14322916666666666" velocity="105"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846239" tv-usec="700471" name="Region end trim">
+    <StatefulDiffCommand obj-id="3092" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="181913" to="176400"/>
+        <length-beats from="8.2500226757369433" to="8"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846254" tv-usec="740633" name="duplicate region">
+    <StatefulDiffCommand obj-id="2109" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="3193"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846275" tv-usec="871205" name="region copy">
+    <StatefulDiffCommand obj-id="2109" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="3199"/>
+          <Add id="3202"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846279" tv-usec="313115" name="Region end trim">
+    <StatefulDiffCommand obj-id="3199" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="176400" to="154350"/>
+        <length-beats from="8" to="7"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846317" tv-usec="865715" name="region copy">
+    <StatefulDiffCommand obj-id="371" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="3214"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="427" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="3224"/>
+          <Add id="3227"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2732" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="3211"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1708846380" tv-usec="828010" name="delete objects">
+    <StatefulDiffCommand obj-id="2109" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="3092"/>
+          <Remove id="3193"/>
+          <Remove id="3199"/>
+          <Remove id="3202"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+</UndoHistory>
