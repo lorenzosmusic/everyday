@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="everyday-halloween" sample-rate="44100" end-is-free="1" session-range-is-free="1" id-counter="3241" name-counter="1" event-counter="202048" vca-counter="1">
+<Session version="6000" name="everyday-halloween" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="7161" name-counter="1" event-counter="207619" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -76,7 +76,7 @@
   </Sources>
   <Regions>
     <Region name="drums-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="331248" position="22050" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="479" type="audio" first-edit="nothing" source-0="373" master-source-0="373" channels="1"/>
-    <Region name="drums-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="153855" length="176400" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="487" type="audio" first-edit="nothing" source-0="373" master-source-0="373" channels="1"/>
+    <Region name="drums-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="153855" length="176400" position="88200" beat="4" sync-position="153855" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="487" type="audio" first-edit="nothing" source-0="373" master-source-0="373" channels="1"/>
     <Region name="drums-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="153855" length="176400" position="264600" beat="12" sync-position="153855" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="610" type="audio" first-edit="nothing" source-0="373" master-source-0="373" channels="1"/>
     <Region name="bass-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="638976" position="22050" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="28.978503401360545" id="782" type="midi" first-edit="nothing" source-0="433" master-source-0="433"/>
     <Region name="bass-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="44100" length="594868" position="66150" beat="3" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="2" length-beats="26.978140589569161" id="785" type="midi" first-edit="nothing" source-0="433" master-source-0="433"/>
@@ -111,8 +111,8 @@
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="468" name="Loop" start="0" end="176400" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1708838838"/>
-    <Location id="505" name="session" start="0" end="2623949" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1708839326"/>
+    <Location id="468" name="Loop" start="66150" end="176400" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1708838838"/>
+    <Location id="505" name="session" start="66150" end="2579850" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1708839326"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -550,7 +550,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state3">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state3">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="hidden" id="463" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -871,9 +871,7 @@
       <Controllable name="solo-iso" id="2078" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2080" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="synth" id="2092" direction="Input" default-type="midi">
-        <Port type="midi" name="synth/midi_in 1">
-          <Connection other="a2j:Impact LX49  [24] (capture): Impact LX49  MIDI1"/>
-        </Port>
+        <Port type="midi" name="synth/midi_in 1"/>
       </IO>
       <IO name="synth" id="2093" direction="Output" default-type="midi">
         <Port type="audio" name="synth/audio_out 1">
@@ -937,7 +935,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state2">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="hidden" id="2150" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -1094,7 +1092,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state4">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state4">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="hidden" id="2445" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -1103,7 +1101,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="2357" interpolation-style="Exponential" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="2358" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="2358" flags="GainLike" value="0.75895786285400391"/>
       </Processor>
       <Processor id="2388" name="meter-whistle" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="2389" name="whistle" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="whistle" type="main-outs" role="Main">
@@ -2385,7 +2383,7 @@
       <Automation>
         <AutomationList automation-id="gain" id="59" interpolation-style="Exponential" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="60" flags="GainLike" value="1.2049468755722046"/>
+      <Controllable name="gaincontrol" id="60" flags="GainLike" value="0.22519268095493317"/>
     </Processor>
   </Click>
   <Speakers>
@@ -2437,32 +2435,32 @@
       <Window name="dsp-statistics" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-64" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1739" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-2687" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-382" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-382-461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-382-461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1739" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1739-1784" visible="0" x-off="1038" y-off="478" x-size="769" y-size="455" custom-ui="1"/>
-      <Window name="PM-1739-1784" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1739-1894" visible="0" x-off="1013" y-off="512" x-size="818" y-size="386" custom-ui="1"/>
-      <Window name="PM-1739-1894" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1739-1930" visible="0" x-off="1150" y-off="350" x-size="544" y-size="711" custom-ui="1"/>
-      <Window name="PM-1739-1930" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-326-1956" visible="0" x-off="999" y-off="352" x-size="846" y-size="706" custom-ui="1"/>
-      <Window name="PM-326-1956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-326-2038" visible="0" x-off="1013" y-off="512" x-size="818" y-size="386" custom-ui="1"/>
-      <Window name="PM-326-2038" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-2064" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2064-2148" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-2064-2148" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2064-2317" visible="0" x-off="1231" y-off="518" x-size="382" y-size="374" custom-ui="1"/>
-      <Window name="PM-2064-2317" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-2354" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2354-2443" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-2354-2443" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-2687" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1739-1784" visible="0" x-off="1038" y-off="478" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-1739-1894" visible="0" x-off="1013" y-off="512" x-size="818" y-size="386" custom-ui="1"/>
+      <Window name="P-1739-1930" visible="0" x-off="1150" y-off="350" x-size="544" y-size="711" custom-ui="1"/>
+      <Window name="PM-1739-1784" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1739-1894" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1739-1930" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2687-2782" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2687-2782" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-326-1956" visible="0" x-off="999" y-off="352" x-size="846" y-size="706" custom-ui="1"/>
+      <Window name="P-326-2038" visible="0" x-off="1013" y-off="512" x-size="818" y-size="386" custom-ui="1"/>
+      <Window name="PM-326-1956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-326-2038" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-382-461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-382-461" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-2064-2148" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-2064-2317" visible="0" x-off="1231" y-off="518" x-size="382" y-size="374" custom-ui="1"/>
+      <Window name="PM-2064-2148" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2064-2317" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-2354-2443" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-2354-2443" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
         <Object id="automation 68" height="66" visible="0"/>
